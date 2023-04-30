@@ -12,13 +12,13 @@ const ServicesSection: React.FC = (): JSX.Element => {
     return (
         <section className="flex lg:flex-row flex-col bg-LIGHT_GRAY w-full">
             <div className="lg:w-1/2 w-full flex">
-                <article className="mx-auto my-44 lg:w-1/2 px-8 lg:px-0">
+                <article className="mx-auto lg:mb-44 lg:mt-44 mt-24 lg:w-1/2 px-8 lg:px-0">
                     <PrimaryHeader firstLine={translations[language].SERVICES.TITLE_1} secondLine={translations[language].SERVICES.TITLE_2} />
                     <p className="font-open-sans text-SLATE_GRAY text-[21px] mb-16 leading-[38px]">{translations[language].SERVICES.SUBTITLE}</p>
                     <UnderlineButton>{translations[language].SERVICES.PROCESS_BUTTON}</UnderlineButton>
                 </article>
             </div>
-            <div className="lg:w-1/2 flex lg:flex-col flex-row lg:my-44 my-20 flex-wrap lg:max-h-[34rem]">
+            <div className="lg:w-1/2 flex lg:flex-col flex-row lg:my-44 mt-20 mb-10 flex-wrap lg:max-h-[34rem]">
                 <MenuLayout>
                     <MenuHeader>{translations[language].SERVICES.LINK_SECTION.A.TITLE}</MenuHeader>
                     <ul>

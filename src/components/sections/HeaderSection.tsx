@@ -38,7 +38,7 @@ const HeaderSection: React.FC = (): JSX.Element => {
 
     return (
         <>
-            <nav className="lg:hidden w-full fixed z-40 left-0 bg-LIGHT_GRAY_2">
+            <nav className="lg:hidden w-full fixed z-40 left-0 bg-LIGHT_GRAY_2 pb-2">
                 <div className="flex items-center justify-between px-4 py-2">
                     <div>
                         <img className="h-[70px]" alt="Digital Spaniel" src="/logo.png"/>
@@ -90,8 +90,8 @@ const HeaderSection: React.FC = (): JSX.Element => {
                 </div>
             </nav>
             <header className="w-full h-full bg-white flex flex-row">
-                <div className="w-full lg:w-1/2 my-24 flex z-20">
-                    <article className="m-auto lg:w-1/2 bg-[#ffffff90] mt-20 p-8 lg:p-0">
+                <div className="w-full lg:w-1/2 lg:my-24 mt-24 mb-0 flex z-20">
+                    <article className="m-auto lg:w-1/2 bg-[#ffffff90] lg:mt-20 mt-24 px-8 pb-4 lg:pb-0 lg:p-0">
                         <h5 className="text-DEEP_PINK font-open-sans-semi-bold text-base mb-4 lg:leading-[72px]">{translations[language].HEADER.PRE}</h5>
                         <PrimaryHeader firstLine={translations[language].HEADER.TITLE_1} secondLine={translations[language].HEADER.TITLE_2} />
                         <SubtitleText>{translations[language].HEADER.SUBTITLE}</SubtitleText>

@@ -35,8 +35,8 @@ const TestimonialsSection: React.FC = (): JSX.Element => {
 
         return testimonialsFiltered.map((testimonial, index) => (
             <div key={index}
-                className={`${(index%3) === 1 ? 'bg-DARK_BLUE lg:scale-[1.1] ' : 'bg-LIGHT_GRAY_2'} px-12 py-8 rounded-xl shadow-2xl lg:w-4/12 mx-8 my-2 lg:my-0 fade-in`} >
-                <p className={`font-open-sans text-[26px] mt-8 leading-[42px] px-8 italic ${index % 3 === 1 ? `text-white` : `text-SLATE_GRAY`}`}>{testimonial.comment}</p>
+                className={`${(index%3) === 1 ? 'bg-DARK_BLUE lg:scale-[1.1] ' : 'bg-LIGHT_GRAY_2'} lg:px-8 px-2 lg:py-8 py-1 rounded-xl shadow-2xl lg:w-4/12 mx-8 my-2 lg:my-0 fade-in`} >
+                <p className={`font-open-sans lg:text-[24px] text-[20px] mt-8 leading-[42px] px-8 italic ${index % 3 === 1 ? `text-white` : `text-SLATE_GRAY`}`}>{testimonial.comment}</p>
                 <div className="flex flex-col items-center mt-8">
                     <img src={`/${testimonial.author.picture}`}
                         alt={testimonial.author.name}

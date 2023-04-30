@@ -10,7 +10,7 @@ const FooterSection: React.FC = (): JSX.Element => {
     const {language} = useLanguageContext();
     return (
         <footer className="bg-LIGHT_GRAY flex flex-col w-full lg:px-0 px-8">
-            <div className="flex lg:flex-row flex-col w-full mx-auto justify-between pt-36 lg:px-32 h-auto">
+            <div className="flex lg:flex-row flex-col w-full mx-auto justify-between lg:pt-36 pt-10 lg:px-32 h-auto">
                 <div className="flex flex-col justify-between items-start mb-12 lg:mb-0">
                     <PrimaryHeader
                         firstLine={translations[language].FOOTER.TITLE_1}
@@ -49,7 +49,7 @@ const FooterSection: React.FC = (): JSX.Element => {
                     </MenuLayout>
                 </div>
             </div>
-            <div className="flex w-full mx-auto px-32 mb-9 mt-36">
+            <div className="flex w-full mx-auto lg:px-32 px-1 mb-9 lg:mt-36 mt-14">
                 <p className="font-open-sans-semi-bold text-SLATE_GRAY_TRANSPARENT text-[21px] leading-[32px] tracking-[0.53px]">{translations[language].FOOTER.COPYRIGHT_TEXT}</p>
             </div>
         </footer>

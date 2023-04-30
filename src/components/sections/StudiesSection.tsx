@@ -14,7 +14,7 @@ const StudiesSection: React.FC = (): JSX.Element => {
     }
 
     return (
-        <section className="bg-white flex flex-col w-full mt-36 px-8 lg:px-0">
+        <section className="bg-white flex flex-col w-full lg:mt-36 mt-10 px-2 lg:px-0">
             <article className="flex flex-col lg:w-3/4 mx-auto">
                 <h2 className="font-poppins text-[38px] leading-[57px] text-DARK_BLUE mb-4 mx-auto">
                     {translations[language].STUDIES.TITLE}

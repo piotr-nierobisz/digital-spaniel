@@ -36,14 +36,14 @@ const ProjectsSection: React.FC = (): JSX.Element => {
     }, [projectTypeSelected, language]);
 
     return (
-        <section className="bg-white flex flex-col w-full mt-28">
+        <section className="bg-white flex flex-col w-full mt-14 lg:mt-28">
             <HeaderContainer>
                 <PrimaryHeader
                     firstLine={translations[language].PROJECTS.TITLE_1}
                     secondLine={translations[language].PROJECTS.TITLE_2}
                 />
             </HeaderContainer>
-            <div className="flex flex-col mb-20 px-8 lg:px-0">
+            <div className="flex flex-col mb-20 px-2 lg:px-0">
                 <div className="flex flex-row lg:w-3/4 w-full mx-auto mb-16 justify-center lg:justify-normal">
                     {projectTypes}
                 </div>
