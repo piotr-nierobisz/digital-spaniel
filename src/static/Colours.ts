@@ -1,0 +1,21 @@
+const Colours = {
+    "WHITE": "#FFFFFF",
+    "DARK_GREEN_TRANSPARENT": "#19293A1A",
+    "DARK_BLUE": "#19293A",
+    "LIGHT_GRAY": "#EDEFF1",
+    "SLATE_GRAY": "#506473",
+    "DEEP_PINK": "#C0345E",
+    "DARK_SLATE_BLUE": "#112D40",
+    "GRAYISH_TURQUOISE": "#596D7A",
+    "RED_PINK": "#C34465",
+    "SLATE_GRAY_TRANSPARENT": "#50647380",
+    "GRAYISH_BLUE": "#A7B1B8",
+    "DARK_BLUE_TRANSPARENT": "#19293A80",
+    "LIGHT_GRAY_BLUE": "#C5C9CD",
+    "STEEL_GRAY": "#344657",
+    "LIGHT_GRAY_2": "#E2E4E6",
+    "PALE_GRAYISH_BLUE": "#C5CACE",
+    "LIGHT_SLATE_GRAY": "#9EA9B1",
+}
+
+export default Colours;

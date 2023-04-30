@@ -1,0 +1,74 @@
+[{
+  "id": 1,
+  "comment": "Working with Digital Spaniel has been a breath of fresh air. Their approach and attitude kept me informed and included from the start. Super pleased with the end results too!",
+  "author": {
+    "name": "Paul Simon",
+    "occupation": "Founder, MegaCorp",
+    "picture": "testimonial_face03.png"
+
+  }
+},{
+  "id": 2,
+  "comment": "Advice and support from DigiSpan was second to none. Always willing to help and offer advice and solutions. A very good and rapid understanding of our requirements was key to this.",
+  "author": {
+    "name": "Johnny B. Goode",
+    "occupation": "CEO, Getting Things Done",
+    "picture": "testimonial_face01.png"
+  }
+},{
+  "id": 3,
+  "comment": "We needed a creative and unique brand which could compete against established products. Digital Spaniel delivered in spades and we’ve seen a huge response to the product launch.",
+  "author": {
+    "name": "Mary Jane",
+    "occupation": "CEO, Design Matters",
+    "picture": "testimonial_face02.png"
+  }
+},{
+  "id": 4,
+  "comment": "Digital Spaniel's team was highly professional and dedicated. They went above and beyond to ensure our project was a success. Communication was seamless, and their expertise was invaluable.",
+  "author": {
+    "name": "Oliver Smith",
+    "occupation": "CTO, FutureTech Solutions",
+    "picture": "testimonial_face02.png"
+  }
+},{
+  "id": 5,
+  "comment": "The attention to detail and responsiveness of the Digital Spaniel team exceeded our expectations. They truly understood our vision and translated it into an impressive final product.",
+  "author": {
+    "name": "Natalie Brown",
+    "occupation": "Co-Founder, GreenLife",
+    "picture": "testimonial_face01.png"
+  }
+},{
+  "id": 6,
+  "comment": "We were impressed by Digital Spaniel's innovative thinking and design capabilities. They helped us achieve an engaging user experience, and our customers have been raving about it!",
+  "author": {
+    "name": "William Johnson",
+    "occupation": "Director, NextGen Apps",
+    "picture": "testimonial_face03.png"
+  }
+},{
+  "id": 7,
+  "comment": "Working with Digital Spaniel was a fantastic experience from start to finish. Their team was proactive, creative, and delivered a top-notch product that truly captured our brand essence.",
+  "author": {
+    "name": "Samantha Lewis",
+    "occupation": "Marketing Manager, Global Brands",
+    "picture": "testimonial_face01.png"
+  }
+},{
+  "id": 8,
+  "comment": "Digital Spaniel made the entire process feel effortless. They were responsive, attentive, and really took the time to understand our needs. The end result was even better than we had envisioned.",
+  "author": {
+    "name": "Peter Wilson",
+    "occupation": "COO, Innovative Health",
+    "picture": "testimonial_face02.png"
+  }
+},{
+  "id": 9,
+  "comment": "Our collaboration with Digital Spaniel was an outstanding experience. They helped us navigate the complexities of our project with ease, and we couldn't be happier with the final outcome.",
+  "author": {
+    "name": "Danielle Thompson",
+    "occupation": "Founder, Bright Ideas Inc.",
+    "picture": "testimonial_face03.png"
+  }
+}]
